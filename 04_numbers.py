@@ -13,26 +13,20 @@ print(type(14.1))
 #Suma
 print(1+1)
 
-
 #Resta [-]
 print(10-1)
-
 
 #Multiplicación [*]
 print(2*3)
 
-
 #Division [/]
 print(4/2)
-
 
 #Potencia [**]
 print(2**3)
 
-
 #Modulo [//]
 print(3//2)
-
 
 #Residuo [%]
 print(10%2)
