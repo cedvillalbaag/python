@@ -1,13 +1,11 @@
-
-#Variables
-
-
+#VARIABLES
 name = "Carlos"
 x = 100
 print(name)
 
-
-#Case Sensitive
+#########################################
+#Recomendaciones para definir variables
+#Case Sensitive -
 book = "Digital Fortress"
 Book = "Digital fortress"
 
@@ -26,9 +24,10 @@ bookName = "Jose" #Camel Case
 BookName = "Gustavo" #Pascal Case
 
 
-#Definir Constantes(Uso de Mayusculas)
+#Definir CONSTANTES (Uso de Mayusculas)
 PI = 3.1416
 MY_NAME = carlos
+
 
 #Conocer el tipo de variable
 type(team)
