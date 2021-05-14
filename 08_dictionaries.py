@@ -1,4 +1,5 @@
 #DICTIONARIES
+
 #Estructura de datos que permiten almacenar valores de diferente tipo. Define datos a partir de claves y valores. Los elementos almacenados no estan ordenados.
 
 #Definir diccionarios
