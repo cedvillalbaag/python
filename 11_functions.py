@@ -1,4 +1,12 @@
-#Funciones
+#FUNCIONES
+#Conjunto de código que realiza una tarea específica.
+
+#Pueden devolver valores o no.
+#Pueden tener argumentos o no.
+#denominadas metodos cuando se encuentran definidas dentro de una clase.
+#Reutilizar código
+
+########################################################
 
 #Definir una función
 def hello ():
@@ -9,6 +17,7 @@ hello()
 
 
 
+#####################################################
 #Función con parámetro
 def hello (name):
     print("Hello " + name)
@@ -26,7 +35,7 @@ def hello (name="Person"):
 hello()
 
 
-
+#####################################################
 #Función con varios parámetros
 
 def add(number_one, number_two):
@@ -35,7 +44,16 @@ def add(number_one, number_two):
 print(add(10,30))
 
 
+def sum(num1, num2):
+    resultado = num1+num2
+    return resultado
 
+almacena_resultado = sum(1,2)
+print(almacena_resultado)
+
+
+
+############################################################################
 #Definir funciones lambda (funciones anónimas)
 
 t = lambda number_one, number_two: number_one + number_two 
