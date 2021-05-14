@@ -5,6 +5,13 @@
 product = {"name":"book","quantity":3,"price":4.99}
 person = {"first_name":"Carlos", "last_name":"Villalba"}
 
+#Asignar valor nuevo a una clave - Sobreescribir
+person["first_name"]= "Jorge"
+print(person)
+
+#Eliminar un elemento del diccionario
+#del person["last_name"]
+
 #Ver tipo de dato
 print(type(product))
 
