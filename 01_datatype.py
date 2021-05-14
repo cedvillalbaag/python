@@ -1,8 +1,9 @@
-
+#TIPOS DE DATOS
 
 #Datatype
 
-#string
+###########################################################
+#Texto - String
 print('hello')
 print("hello")
 print('''hello''')
@@ -14,6 +15,8 @@ print(type(25.3666))
 #Concatenacion de Texto
 print("Carlos"+"Villalba")
 
+
+######################################################
 #Numbers - Numeros
 
 #Integer
@@ -22,6 +25,7 @@ print(30)
 #Float
 print(30.2)
 
+########################################################
 #Datos Booleanos - Boolean 
 True
 False
