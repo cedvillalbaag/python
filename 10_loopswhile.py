@@ -1,0 +1,13 @@
+##########################################################################
+#BUCLE WHILE (SIMILAR A IF) - BUCLE INDETERMINADO
+
+#Bucle indeterminado
+#Sintaxis
+
+count = 4
+
+while count <= 10:
+    print(count)
+    count = count + 1
+
+

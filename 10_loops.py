@@ -90,12 +90,5 @@ else:
     print("email incorrecto")
 
 
-##########################################################################
-#Bucle While (Similar a If)
-count = 4
-
-while count <= 10:
-    print(count)
-    count = count + 1
 
 
