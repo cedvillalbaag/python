@@ -5,7 +5,7 @@
 #Pueden tener argumentos o no.
 #denominadas metodos cuando se encuentran definidas dentro de una clase.
 #Reutilizar código
-
+# Cuando se coloca * iniciando el argumento de una función indica que no se sabe cuantos elementos formaran parte del argumento y sera una tupla
 ########################################################
 
 #Definir una función

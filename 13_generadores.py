@@ -9,8 +9,7 @@
 
 
 #################################################################
-
-
+#EJEMPLO
 def generapares(limite):
     num = 1
 
@@ -24,7 +23,7 @@ for i in devuelvepares:
     print(i)
 
 #######################################################
-
+#EJEMPLO
 def generapares(limite):
     num = 1
 
@@ -40,3 +39,17 @@ print(next(devuelvepares))
 print("podria ir más codigo")
 
 print(next(devuelvepares))
+#######################################################
+#EJEMPLO
+
+def devuelve_ciudades(*ciudades):
+    for elemento in ciudades:
+        yield elemento
+
+ciudades_devueltas= devuelve_ciudades("Caracas", "Maracaibo", "Valencia", "Barquisimeto")
+
+print(next(ciudades_devueltas))
+
+print(next(ciudades_devueltas))
+
+
