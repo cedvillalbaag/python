@@ -32,3 +32,6 @@ MY_NAME = carlos
 #Conocer el tipo de variable
 type(team)
 
+#Input - Son tomados como texto por el sistema. OJO
+abc = input()
+

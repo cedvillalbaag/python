@@ -1,17 +1,40 @@
-# Operadores Condicionales (==, <, >)
+#CONDICIONALES
+
+#Evaluar si la condición se cumple o no.
+
+
+#Operadores de Comparación (==, !=, <, >, >=, <=)
 
 3 > 2
 
 
+########################################################################
+
 #Conditional If
 y=50
 if y==50:
-    print("y = 50 unds")
+    resultado = 50
+print("y = 50 unds")
 
+########################################################################
+#OTRO EJEMPLO
+print("programa de evaluación")
+valor = input()
+# en python el input es tomado como texto
+
+def calculo(nota):
+    valoracion = "aprobado"
+    if nota < 5:
+        valoracion = "reprobado"
+    return valoracion
+print(calculo(int(valor)))
+
+
+########################################################################
 
 
 #Condicional If-Else
-x = 40
+x=40
 
 if x<30:
     print ("x is less than 30")
@@ -19,6 +42,9 @@ else:
     print ("x is more than 30")
 
 
+
+
+########################################################################
 #Conditional Elif
 color = "red"
 
