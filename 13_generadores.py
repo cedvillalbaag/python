@@ -1,12 +1,9 @@
 #GENERADORES
-
 #Estructuras que extraen valores de una función y se almacenan en objetos iterables (que se pueden recorrer por un bucle).
-
 
 #Se almacenan de uno en uno. Se consigue el estado de suspensión hasta que vuelva a ser llamada la función. El control de flujo de ejecución pasa nuevamente al algoritmo.
 
 #Ventaja en eficiencia frente a las funciones porque no genera la lista completa de valores.
-
 
 #################################################################
 #EJEMPLO
@@ -40,8 +37,9 @@ print("podria ir más codigo")
 
 print(next(devuelvepares))
 #######################################################
-#EJEMPLO
+#EJEMPLO DE BUCLES ANIDADOS
 
+#PRIMERO SE CREAN LOS ELEMENTOS - CIUDADES
 def devuelve_ciudades(*ciudades):
     for elemento in ciudades:
         yield elemento
@@ -52,4 +50,16 @@ print(next(ciudades_devueltas))
 
 print(next(ciudades_devueltas))
 
+#############################
+#LUEGO SE CREAN LOS SUBELEMENTOS -  LAS LETRAS
+def devuelve_ciudades(*ciudades):
+    for elemento in ciudades:
+        #for subelemento in elemento:
+            yield from elemento
+
+ciudades_devueltas= devuelve_ciudades("Caracas", "Maracaibo", "Valencia", "Barquisimeto")
+
+print(next(ciudades_devueltas))
+
+print(next(ciudades_devueltas))
 
