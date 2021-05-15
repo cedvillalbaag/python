@@ -17,9 +17,11 @@ if y==50:
 print("y = 50 unds")
 
 ########################################################################
-#OTRO EJEMPLO
-print("programa de evaluación")
-valor = input()
+#OTRO EJEMPLO DE FUNCION CON IF
+
+
+print("programa de evaluación de notas")
+valor = input("Introduce la nota de un alumno:    ")
 # en python el input es tomado como texto
 
 def calculo(nota):
@@ -27,11 +29,12 @@ def calculo(nota):
     if nota < 5:
         valoracion = "reprobado"
     return valoracion
+
+
 print(calculo(int(valor)))
 
 
 ########################################################################
-
 
 #Condicional If-Else
 x=40
