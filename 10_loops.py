@@ -67,9 +67,27 @@ for i in range(5):
 
 
 #Variando los parametros de Range - (Inicio, fin, incremento)
-#Imprimir valor de la variable con incremento
+#Imprimir valor de la variable con incremento - rango de numeros
 for i in range(2,15,3):
     print(f"Valor de la variable {i}")    
+
+
+
+#COMBINANDO BUCLE CON IF (VALIDACION DE EMAIL SENCILLA)
+
+valido = False
+email = input("Introduce tu email")
+
+for i in range(len(email)):
+    if email[i] == "@":
+        valido = True
+
+
+if valido:
+    print("email correcto")
+
+else:
+    print("email incorrecto")
 
 
 ##########################################################################
