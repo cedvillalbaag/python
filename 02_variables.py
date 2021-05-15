@@ -1,4 +1,8 @@
 #VARIABLES
+
+# Las variables solo son funcionales dentro de su ambito.
+
+
 name = "Carlos"
 x = 100
 print(name)
@@ -32,6 +36,7 @@ MY_NAME = carlos
 #Conocer el tipo de variable
 type(team)
 
-#Input - Son tomados como texto por el sistema. OJO
-abc = input()
+#Input - Son tomados como texto por el sistema. OJO.
+#Admite mensaje que aperecera en la terminal
+abc = input("Indique el tipo de dato que esta esperando")
 

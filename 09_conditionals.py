@@ -21,6 +21,7 @@ print("y = 50 unds")
 
 
 print("programa de evaluación de notas")
+
 valor = input("Introduce la nota de un alumno:    ")
 # en python el input es tomado como texto
 
@@ -36,7 +37,7 @@ print(calculo(int(valor)))
 
 ########################################################################
 
-#Condicional If-Else
+#Condicional If-Else (SI - SI NO ES VERDAD)
 x=40
 
 if x<30:
