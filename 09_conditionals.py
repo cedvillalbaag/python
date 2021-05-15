@@ -63,9 +63,9 @@ elif color == "green":
 else:
     print("any color")  
 
+#############################################################################
+#IF ANIDADO
 
-
-#If Anidado
 name = "Carlos"
 last_name = "Villalba"
 
@@ -77,8 +77,9 @@ if name == "Carlos":
 else:
     print ("Tu no eres Carlos")
 
+##################################################################################
+#OPERADORES LOGICOS - AND, OR, NOT
 
-#Operadores Lógicos ---- AND, OR, NOT
 m = 30
 
 if m<50 and m>20:
