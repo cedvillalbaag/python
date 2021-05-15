@@ -29,7 +29,11 @@ print(person.items())
 person.clear()
 
 #Eliminar diccionario de la aplicación
-del person
+#del person
+
+#Acceder a un valor del diccionario
+print(product["name"])
+print(product)
 
 
 
