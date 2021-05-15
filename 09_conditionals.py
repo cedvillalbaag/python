@@ -88,6 +88,17 @@ else:
     print("fuera de rango")
 
 
+##################################################################################
+
+
+asignatura = input("Escribe la asignatura elegida:")
+
+if asignatura in ("matematica", "fisica", "quimica"):
+    print("es correcto")
+else:
+    print("No es correcto")
+
+    
 
 
 
