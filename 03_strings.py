@@ -1,22 +1,27 @@
-#Strings (Propiedades y Metodos)
+#STRINGS (CADENAS DE TEXTO)
 
 mystr = "Hello World1"
 mystr2 = "hello,world"
 
+
+######################################################################################
+
 #PROPIEDADES Y METODOS
+
 #Ver Propiedades y Metodos para Strings
 print(dir(mystr))
 
+#################
 
 #Metodos: nos permiten alterar los datos de la cadena
 
-#Convertir cadena de texto a Título
+#Convertir cadena de texto a formato Título
 print(mystr2.title())
 
-#Convertir cadena de texto a Mayuscula
+#Convertir cadena de texto a formato Mayuscula
 print(mystr.upper())
 
-#Convertir cadena de texto a minuscula
+#Convertir cadena de texto a formato minuscula
 print(mystr.lower())
 
 #Convertir cadena de texto en primera en minuscula y resto en mayuscula
