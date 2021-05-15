@@ -1,20 +1,17 @@
 #CONDICIONALES
-
 #Evaluar si la condición se cumple o no.
 
-
 #Operadores de Comparación (==, !=, <, >, >=, <=)
-
 3 > 2
-
 
 ########################################################################
 
-#Conditional If
+#CONDITIONAL If
 y=50
 if y==50:
     resultado = 50
 print("y = 50 unds")
+
 
 ########################################################################
 #OTRO EJEMPLO DE FUNCION CON IF
@@ -35,9 +32,9 @@ def calculo(nota):
 print(calculo(int(valor)))
 
 
-########################################################################
 
-#Condicional If-Else (SI - SI NO ES VERDAD)
+########################################################################
+#CONDITIONAL IF - ELSE --------- (SI - SI NO )
 x=40
 
 if x<30:
@@ -45,11 +42,18 @@ if x<30:
 else:
     print ("x is more than 30")
 
+#Otro ejemplo
 
+edad_usuario = int(input("Ingrese la edad del usuario"))
+
+if edad_usuario < 18:
+    print("No puede pasar")
+else:
+    print("No puede pasar")
 
 
 ########################################################################
-#Conditional Elif
+#CONDITIONAL IF ELIF ELSE / SI -SI- SI NO
 color = "red"
 
 if color == "red":
