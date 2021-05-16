@@ -1,10 +1,14 @@
 #STRINGS (CADENAS DE TEXTO)
+# Documentación: http://pyspanishdoc.sourceforge.net/lib/string-methods.html
+
 
 mystr = "Hello World1"
 mystr2 = "hello,world"
 
 
 ######################################################################################
+
+
 
 #PROPIEDADES Y METODOS
 
@@ -52,8 +56,11 @@ print(mystr.split())
 #Dividir cadena de texto por caracter (Crea una lista)
 print(mystr2.split(","))
 
-#Encontrar la Posicion de un caracter en la cadena de texto
+#Encontrar la posicion de un caracter dentro de la cadena de texto
 print(mystr.find("o"))
+
+#Encontrar la posicion de un caracter desde el final de la cadena de texto
+print(mystr.rfind("d"))
 
 #Cantidad de caracteres en una cadena de texto
 print(len(mystr))
@@ -77,3 +84,10 @@ print(mystr[-2])
 #Concatenar cadenas de texto
 print("Mi nombre es Carlos " + mystr)
 print(f"Mi nombre es Carlos {mystr}")
+
+
+#Borrar espacios sobrantes al inicio y al final de una cadena de texto
+a = "   prueba de espacio inicio"
+print(a)
+
+print(a.strip())
