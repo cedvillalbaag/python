@@ -8,8 +8,6 @@ mystr2 = "hello,world"
 
 ######################################################################################
 
-
-
 #PROPIEDADES Y METODOS
 
 #Ver Propiedades y Metodos para Strings
