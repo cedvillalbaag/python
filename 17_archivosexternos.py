@@ -70,3 +70,10 @@ var1 = "\n Agregar nuevo texto:\n este es una prueba de texto agregado \n realiz
 archivo_texto.write(var1)
 
 archivo_texto.close()
+
+
+###############################################
+
+#cambiar la posicion del cursor dentro del archivo
+
+#archivo_texto.seek(11)
