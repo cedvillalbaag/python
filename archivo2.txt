@@ -1,0 +1,7 @@
+inicio texto
+Hola Mundo
+Eesta es una practica de python
+otra linea de texto
+
+prueba 2
+fin de texto
