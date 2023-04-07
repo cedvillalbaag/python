@@ -12,7 +12,10 @@ print ("Hello world")
 alfa = 0.5
 beta = 'Carlos'
 
+\barra invertida alt92
 
-#Identacion
+#Identacion (tabulaciones)
 #Utilizada en funciones, bucles o condicionales
+
+
 
